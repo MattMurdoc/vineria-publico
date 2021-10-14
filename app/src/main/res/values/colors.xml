@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F3F0</color>
+    <color name="onBackground">#FFF</color>
+    <color name="backgroundLight">#F8F6F3</color>
+    <color name="backgroundDark">#DDDBD9</color>
+
+    <color name="dark">#FF252525</color>
+    <color name="light">#FFFDFDFC</color>
+
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray700">#616161</color>
+
+    <color name="ActionBar">#3e3d39</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#777777</color>
+
+    <color name="colorText">#525252</color>
+
+    <color name="buttonsGeneralText">#f1f1f1</color>
+
+    <color name="floatingButtonIconTint">#232323</color>
+
+
+    <color name="dialogTitleText">#f1f1f1</color>
+    <color name="dialogTitleBackgroundText">#525252</color>
+
+    <color name="dialogButtonBackground">#f1f1f1</color>
+    <color name="dialogButtonText">#525252</color>
+    <color name="dialogSeparator">#8d8d8d</color>
+
+    <color name="listSeparator">#918d8d</color>
+
+
+    <color name="chatBackground">@color/white</color>
+
+    <color name="pathColor">#494949</color>
+
+    <color name="icon">#FF252525</color>
+    <color name="iconDisabled">#838383</color>
+
+    <color name="primary">#212121</color>
+    <color name="accent">#FF7F00</color>
+    <color name="warning_accent">#FF5100</color>
+
+    <color name="floating_compact_card_background">@color/background</color>
+</resources>

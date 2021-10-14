@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "4284470637",
+    "project_id": "vineria-virgen-de-huachana",
+    "storage_bucket": "vineria-virgen-de-huachana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4284470637:android:7bd460c8ef06839b24f664",
+        "android_client_info": {
+          "package_name": "ar.com.vineria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4284470637-5vdap0osg53q2p0v5fepdfc1avpf6i61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAheUlug9bZM_TZLRudL5M2XI0lZdKi1hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4284470637-5vdap0osg53q2p0v5fepdfc1avpf6i61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

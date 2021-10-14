@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vineria Virgen de Huachana</string>
+    <string name="pedidosTitulo">Pedidos</string>
+    <string name="pagosTitulo">Pagos</string>
+    <string name="nuevoPagoTitulo">Nuevo Pago</string>
+    <string name="perfilTitulo">Perfil</string>
+    <string name="misDatosTitulo">Mis Datos</string>
+    <string name="clienteTitulo">Seleccionar Cliente</string>
+    <string name="facturaTitulo">Seleccionar Factura</string>
+    <string name="miUsuarioTitulo">Seleccionar Usuario</string>
+    <string name="syncTitulo">Sincronización</string>
+    <string name="email">Email</string>
+    <string name="nombre_y_apellido">Nombre y Apellido</string>
+    <string name="editar">Editar</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="cancel">cancel</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="worker_name">{entidad}:</string>
+    <string name="worker_status">{estado}</string>
+    <string name="nuevoPedido">Nuevo Pedido</string>
+</resources>

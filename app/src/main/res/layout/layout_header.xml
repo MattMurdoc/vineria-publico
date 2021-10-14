@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/header_view"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:elevation="16dp"
+	android:background="@color/background"
+	>
+	<include
+		layout="@layout/floating_circular_button_back" />
+
+	<include
+		layout="@layout/floating_circular_button_burger" />
+
+	<TextView
+		android:id="@+id/header_text_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="Chat"
+		android:textColor="@color/dark"
+		android:textStyle="bold"
+		android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+	<include layout="@layout/horizontal_line" />
+</merge>

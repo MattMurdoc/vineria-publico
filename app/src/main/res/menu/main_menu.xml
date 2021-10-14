@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_pedidos"
+            android:id="@+id/nav_pedidos"
+            android:title="@string/pedidosTitulo" />
+        <item
+            android:icon="@drawable/ic_pagos"
+            android:id="@+id/nav_pagos"
+            android:title="@string/pagosTitulo" />
+        <item
+            android:icon="@drawable/ic_sync"
+            android:id="@+id/nav_sync"
+            android:title="@string/syncTitulo" />
+        <item
+            android:icon="@drawable/ic_account"
+            android:id="@+id/nav_my_user"
+            android:title="@string/misDatosTitulo" />
+    </group>
+</menu>

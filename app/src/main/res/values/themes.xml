@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Base" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="colorSecondary">@color/dark</item>
+        <item name="colorOnSecondary">@color/light</item>
+        <item name="colorSurface">@color/onBackground</item>
+        <item name="colorOnSurface">@color/dark</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/dark</item>
+        <item name="android:ambientShadowAlpha">0.02</item>
+        <item name="android:spotShadowAlpha">0.06</item>
+        <item name="android:colorAccent">#000</item>
+        <item name="colorControlNormal">#000</item>
+        <item name="colorControlActivated">#000</item>
+    </style>
+
+    <style name="Theme.App" parent="Theme.Base">
+        <item name="android:statusBarColor">@color/backgroundDark</item>
+        <!-- <item name="colorPrimaryDark">@color/backgroundDark</item>  -->
+    </style>
+
+    <style name="Theme.App.NoActionBarNoTransparent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.App.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.App.Button.IconOnly" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="iconPadding">0dp</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="AppTheme.OutlinedBoxDense" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxBackgroundColor">@color/backgroundLight</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="errorTextColor">@color/accent</item>
+        <item name="errorIconTint">@color/accent</item>
+        <item name="boxStrokeErrorColor">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.BigBottomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="AppTheme.WarningButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="strokeColor">@color/warning_accent</item>
+        <item name="android:textColor">@color/warning_accent</item>
+    </style>
+
+    <style name="AppTheme.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:layout_margin">24dp</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+
+</resources>
